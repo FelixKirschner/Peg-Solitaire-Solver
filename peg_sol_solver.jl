@@ -1,9 +1,6 @@
 include("funcs.jl")
 
-
-game = initialize_board()
 seen_configs = Dict()
-
 done = false
 game = initialize_board()
 el = (0,0)
